@@ -1,5 +1,5 @@
 {
-    "settingsInheritedFrom": "Vonage/whitesource-config@main",
+    "settingsInheritedFrom": "aayant-mend/whitesource-config@vonagetest",
     "scanSettingsSAST": {
         "enableScan": false,
         "scanPullRequests": true,
