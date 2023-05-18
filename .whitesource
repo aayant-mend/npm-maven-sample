@@ -1,5 +1,8 @@
 {
     "settingsInheritedFrom": "aayant-mend/whitesource-config@vonagetest",
+    "scanSettings": {
+        "baseBranches": [ "main", "test" ]
+    }
     "scanSettingsSAST": {
         "enableScan": false,
         "scanPullRequests": true,
