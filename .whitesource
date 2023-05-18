@@ -2,7 +2,6 @@
     "settingsInheritedFrom": "aayant-mend/whitesource-config@vonagetest",
     "scanSettings": {
         "configMode": "AUTO",
-        "configExternalURL": "",
         "baseBranches": [],
         "enableLicenseViolations": true,
         "enableIaC": false
