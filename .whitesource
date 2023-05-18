@@ -14,6 +14,6 @@
         "workflowRules": {
             "enabled": true
         },
-        "enableRenovate": true,
+        "enableRenovate": true
     }
 }
