@@ -1,5 +1,5 @@
 {
-    "settingsInheritedFrom": "aayant-mend/whitesource-config@primary",
+    "settingsInheritedFrom": "aayant-mend/whitesource-config@vonagetest",
     "scanSettings": {
         "configMode": "AUTO",
         "configExternalURL": "",
