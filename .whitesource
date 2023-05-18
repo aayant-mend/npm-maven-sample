@@ -1,26 +1,19 @@
 {
-    "settingsInheritedFrom": "aayant-mend/whitesource-config@vonagetest",
-    "scanSettings": {
-        "configMode": "AUTO",
+    "settingsInheritedFrom": "Vonage/whitesource-config@main",
+    "scanSettingsSAST": {
+        "enableScan": false,
+        "scanPullRequests": true,
+        "incrementalScan": true,
         "baseBranches": [],
-        "enableLicenseViolations": true,
-        "enableIaC": false
+        "snippetSize": 10
     },
     "leastVulnerablePackageSettings": {
         "enabled": true
     },
-    "checkRunSettings": {
-        "vulnerableCheckRunConclusionLevel": "failure",
-        "displayMode": "diff"
-    },
-    "issueSettings": {
-        "minSeverityLevel": "LOW",
-        "issueType": "DEPENDENCY",
-        "displayLicenseViolations": true
-    },
     "remediateSettings": {
         "workflowRules": {
             "enabled": true
-        }
+        },
+        "enableRenovate": true,
     }
 }
